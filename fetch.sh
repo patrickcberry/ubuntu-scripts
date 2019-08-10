@@ -1,7 +1,11 @@
 #!/bin/sh
-# if [ -d /tmp/ubs ]
 
-
+# If folder already exists, delete contents to force download of new files
+if [ -d /tmp/ubs ]
+then
+  rm /tmp/ubs/*
+  rmdir /tmp/ubs
+fi
 
 mkdir /tmp/ubs
 
