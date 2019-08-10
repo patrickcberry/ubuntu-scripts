@@ -23,7 +23,7 @@ hostname $1
 
 # Set static ip address
 
-sed -i 's/NNN/$2\/24/' /tmp/ubs/netplan.yaml
+sed -i "s/NNN/$2\/24/" /tmp/ubs/netplan.yaml
 
 
 # mkdir /etc/netplan/old
