@@ -4,4 +4,4 @@
 
 apt-get update
 apt-get upgrade -y
-apt-get upgrade-dist -y
+apt-get dist-upgrade -y
