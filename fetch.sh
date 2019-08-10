@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo ************************************
-echo FETCHING SCRIPTS
+echo FETCHING SCRIPTS XYZ
 echo ************************************
 
 clear
