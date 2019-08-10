@@ -30,3 +30,5 @@ cp /tmp/ubs/netplan.yaml /etc/netplan/netplan.yaml
 netplan apply
 
 # Set timezone
+
+timedatectl set-timezone Australia/Sydney
