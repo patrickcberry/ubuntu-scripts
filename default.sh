@@ -24,9 +24,7 @@ hostname $1
 # Set static ip address
 
 sed -i "s/NNN/$2\/24/" /tmp/ubs/netplan.yaml
-
-
-# mkdir /etc/netplan/old
-# mv /etc/netplan/* /etc/netplan/old
-# cp /tmp/ubs/netplan.yaml /etc/netplan/netplan.yaml
-# netplan apply
+mkdir /etc/netplan/old
+mv /etc/netplan/* /etc/netplan/old
+cp /tmp/ubs/netplan.yaml /etc/netplan/netplan.yaml
+netplan apply
