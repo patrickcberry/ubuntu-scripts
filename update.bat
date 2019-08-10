@@ -6,4 +6,4 @@ if "%~1" equ "" (
 
 git add .
 git commit -m %message%
-git push
+git push https://patrickcberry:Asunmaa2!@github.com/patrickcberry/ubuntu-scripts
