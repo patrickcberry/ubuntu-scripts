@@ -28,3 +28,5 @@ mkdir /etc/netplan/old
 mv /etc/netplan/* /etc/netplan/old
 cp /tmp/ubs/netplan.yaml /etc/netplan/netplan.yaml
 netplan apply
+
+# Set timezone
