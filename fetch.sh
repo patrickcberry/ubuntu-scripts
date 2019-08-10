@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-echo ************************************
-echo FETCHING SCRIPTS XYZ
-echo ************************************
+wget -O /tmp/ubs/update-all.sh https://raw.githubusercontent.com/patrickcberry/ubuntu-scripts/master/update-all.sh
 
-clear
+ls /tmp/ubs
