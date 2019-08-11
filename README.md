@@ -53,7 +53,7 @@ sudo sh /tmp/ubs/motion-eye.sh
 
 Installs and starts the server which runs on port 8765.
 
-Issue with Chrome version 76.0.3809.100 (Official Build) (64-bit) where video
+Motioneye has an issue with Chrome version 76.0.3809.100 (Official Build) (64-bit) where video
 is not displayed (spinners only).
 
 A workaround is to set `chrome://flags/#enable-lazy-image-loading` to `disabled`.
