@@ -8,7 +8,9 @@ Various Ubuntu configurations scripts
 The following command will download all scripts and place them in the `/tmp/ubs` folder,
 
 ```
+sudo -i
 wget -O - https://raw.githubusercontent.com/patrickcberry/ubuntu-scripts/master/fetch.sh | sh
+exit
 ```
 
 
