@@ -43,12 +43,6 @@ The script will,
 + Configure a static IP
 + Set the time zone to Australia/Sydney
 
-HOSTNAME
-
-timezone
-
-static ip address
-
 ### Motioneye
 
 Installs motioneye and dependencies.
